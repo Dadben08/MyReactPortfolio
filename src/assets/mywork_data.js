@@ -36,7 +36,7 @@ const mywork_data = [
         w_no:6,
         w_name:"Web design",
         w_img:project6_img,
-        url: "https://newspicy-delivery-1-frontend.onrender.com/"
+        
     },
 ]
  

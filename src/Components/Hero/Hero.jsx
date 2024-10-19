@@ -3,6 +3,8 @@ import "./Hero.css"
 import profile_img from "../../assets/mynew.jpg"
 import AnchorLink from "react-anchor-link-smooth-scroll"
 import MyCV from "../../assets/My-CV.pdf"
+import R from "../../assets/R.png"
+import Reactpic from "../../assets/reactpic.webp"
 
 
 const Hero = () => {
@@ -15,6 +17,11 @@ const Hero = () => {
             <div className="hero-connect"><AnchorLink className="anchor-link" offset={50} href= "#contact">Connect with me</AnchorLink></div>
             <div className="hero-resume"><a href={MyCV} download="My-CV.pdf">My resume</a></div>
         </div>
+        <marquee behavior="scroll" direction="right" >
+          <img src={R} alt="" />
+          <img src={Reactpic} alt=""  />
+          
+        </marquee>
 
     </div>
   )

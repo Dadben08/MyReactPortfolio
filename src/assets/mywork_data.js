@@ -1,6 +1,6 @@
 import project1_img from '../assets/Cravings.png'
 import project2_img from '../assets/Travel.png'
-import project3_img from '../assets/project_3.svg'
+import project3_img from '../assets/AppleStore.png'
 import project4_img from '../assets/project_4.svg'
 import project5_img from '../assets/project_5.svg'
 import project6_img from '../assets/project_6.svg'
@@ -8,7 +8,7 @@ import project6_img from '../assets/project_6.svg'
 const mywork_data = [
     {
         w_no:1,
-        w_name:"Web design",
+        w_name:"Cravings",
         w_img:project1_img,
         url: "https://newspicy-delivery-1-frontend.onrender.com/"
     },
@@ -20,8 +20,9 @@ const mywork_data = [
     },
     {
         w_no:3,
-        w_name:"Web design",
-        w_img:project3_img
+        w_name:"AppleStore",
+        w_img:project3_img,
+        url: "https://apple-store-a4as.vercel.app"
     },
     {
         w_no:4,

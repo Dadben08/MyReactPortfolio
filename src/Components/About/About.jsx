@@ -35,7 +35,7 @@ const About = () => {
         </div>
         <div className="about-achievements">
             <div className="about-achievement">
-                <h1>1 +</h1>
+                <h1>2 +</h1>
                 <p>YEAR OF EXPERIENCE</p>
             </div>
             <hr />

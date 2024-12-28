@@ -14,8 +14,10 @@ const MyWork = () => {
         <div className="mywork-container">
             {mywork_Data.map((work, index) => {
                 return (
-                  <a key={index} href={work.url} target="_blank" rel="noopener noreferrer">
+                  <a key={index}  href={work.url} target="_blank" rel="noopener noreferrer">
                     <img src={work.w_img} alt={`Work item ${index + 1}`} />
+                    <p>{work.w_name}</p>
+                    
                   </a>
                 );
             })}

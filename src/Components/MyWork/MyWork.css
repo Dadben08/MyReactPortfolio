@@ -37,6 +37,10 @@
     transition: 0.3s;
     cursor: pointer;
 }
+.mywork-container a{
+    text-decoration: none;
+    color: white;
+}
 
 .mywork-container img:hover{
     transform: scale(1.10);

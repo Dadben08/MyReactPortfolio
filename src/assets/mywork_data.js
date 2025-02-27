@@ -2,8 +2,9 @@ import project1_img from '../assets/Cravings.png'
 import project2_img from '../assets/Travel.png'
 import project3_img from '../assets/AppleStore.png'
 import project4_img from '../assets/VistaNest.png'
-import project5_img from '../assets/project_5.svg'
+import project5_img from '../assets/Ecommerce1.png'
 import project6_img from '../assets/project_6.svg'
+
 
 const mywork_data = [
     {
@@ -36,8 +37,9 @@ const mywork_data = [
     },
     {
         w_no:5,
-        w_name:"Web design",
+        w_name:"E-commercer site",
         w_img:project5_img,
+        url: "https://vindove-ecomm-ekcg.vercel.app/",
         w_description:"ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas."
     },
     {

@@ -3,7 +3,7 @@ import project2_img from '../assets/Travel.png'
 import project3_img from '../assets/AppleStore.png'
 import project4_img from '../assets/VistaNest.png'
 import project5_img from '../assets/Ecommerce1.png'
-import project6_img from '../assets/project_6.svg'
+import project6_img from '../assets/movieapp.png'
 
 
 const mywork_data = [
@@ -44,9 +44,10 @@ const mywork_data = [
     },
     {
         w_no:6,
-        w_name:"Web design",
+        w_name:"MovieApp",
         w_img:project6_img,
-        w_description:"ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quas."
+        url: "https://movie-app-mocha-eight-56.vercel.app/",
+        w_description:"A React-based web application that allows users to search for movies and access a download page for each movie. It fetches movie details using the **OMDb API** and displays a curated list of 50 popular movies.."
         
     },
 ]

@@ -4,6 +4,7 @@ import project3_img from '../assets/AppleStore.png'
 import project4_img from '../assets/VistaNest.png'
 import project5_img from '../assets/Ecommerce1.png'
 import project6_img from '../assets/movieapp.png'
+import project7_img from "../assets/Notebook.png"
 
 
 const mywork_data = [
@@ -48,6 +49,14 @@ const mywork_data = [
         w_img:project6_img,
         url: "https://movie-app-mocha-eight-56.vercel.app/",
         w_description:"A React-based web application that allows users to search for movies and access a download page for each movie. It fetches movie details using the **OMDb API** and displays a curated list of 50 popular movies.."
+        
+    },
+    {
+        w_no:7,
+        w_name:"NoteBook",
+        w_img:project7_img,
+        url: "https://think-vault.vercel.app/",
+        w_description:"NoteApp is a sleek, user-friendly application designed to help users create, organize, and manage notes effortlessly. Whether you're jotting down quick ideas, keeping track of tasks, or maintaining detailed logs, NoteApp offers a clean interface with smooth functionality for all your note-taking needs."
         
     },
 ]
